@@ -2,6 +2,12 @@
 
 _Scrambles an array until it is sorted, then returns it_
 
+## Why?
+![caption: yeah.
+a scrampble function is a sort function if you run it enough times.
+oh my god.
+i have an idea.](res/motivation.png)
+
 ## Time Complexity
 
 The sky's the limit.
