@@ -1,6 +1,6 @@
 {
   "name": "@johnny.reina/chaos-sort",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scramble an array until it is sorted",
   "main": "dist/index.js",
   "scripts": {
