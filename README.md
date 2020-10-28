@@ -1,4 +1,4 @@
-# Chaos Sort
+# Chaos Sort [![@johnny.reina/chaos-sort](https://img.shields.io/npm/v/@johnny.reina/chaos-sort?style=for-the-badge)](https://www.npmjs.com/package/@johnny.reina/chaos-sort)
 
 _Scrambles an array until it is sorted, then returns it_
 
