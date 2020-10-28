@@ -18,7 +18,7 @@ function isSorted<T>(arr: Array<T>, ord: (item: T) => Ord): boolean {
  * Scrambles the array until it is sorted, using the specified ordering.
  */
 export function chaosSort<T>(arr: Array<T>, ord: (item: T) => Ord): Array<T> {
-    if(arr.length < 2) return arr;
+  if (arr.length < 2) return arr;
   let sorted, result;
 
   do {
