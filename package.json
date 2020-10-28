@@ -1,0 +1,34 @@
+{
+  "name": "@johnny.reina/chaos-sort",
+  "version": "0.1.0",
+  "description": "Scramble an array until it is sorted",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "rebuild": "npm run clean && npm run build",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "prepublishOnly": "npm run rebuild"
+  },
+  "keywords": [
+    "sort",
+    "algorithm",
+    "array",
+    "utility"
+  ],
+  "author": "Johnny Reina <johnny.r.reina@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "files": [
+    "LICENSE",
+    "dist/"
+  ]
+}
